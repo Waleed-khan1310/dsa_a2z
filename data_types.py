@@ -113,16 +113,3 @@ print(dic_eg)
 
 
 
-
-
-
-age_input=input("enter your age;")
-input=int(age_input)
-if age<0:
-print("enter correct age.")
-elif age < 18:
-print("you are minor.")
-elif age >= 18 and age > 65:
-print("you are adult.")
-else 
-print("you are are senior citizen.")

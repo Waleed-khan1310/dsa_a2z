@@ -47,6 +47,7 @@ if(nif_eg==9):
 print("Ye to yahi ruk jae ga")
 
 # lets create elif statement
+# Elif statement only execute one statement which is true other will be ignored
 
 lif=9
 if(lif==10):

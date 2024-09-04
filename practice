@@ -44,3 +44,8 @@ a=int()
 b=int()
 sum=a*b
 print(f'The product of {a} and {b} is: ', sum)
+
+
+
+
+

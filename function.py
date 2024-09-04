@@ -69,11 +69,11 @@ def evenodd(x):
     else:
         print("odd")
 
-evenodd(int(input("Enter your input: ")))
+evenodd(int(input("Enter your input to find even or odd: ")))
 
 
 
-# Here 
+# Immutable object shows Pass_by_value
 
 def pass_by_value(b):
     b=b*10
@@ -83,6 +83,7 @@ pass_by_value(9)
 
 
 
+# Mutable object shows Pass_by_reference
 
 def pass_by_reffermce(list1):
     list1.append('W')
