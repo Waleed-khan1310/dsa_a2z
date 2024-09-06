@@ -14,3 +14,17 @@ def sum_of_divisors_upto_n(N):
 # Example usage
 N = 3
 print(sum_of_divisors_upto_n(N))
+
+
+def computeGCD(x, y):
+    while(y):
+       x, y = y, x % y
+    return abs(x)
+ 
+a = 60
+b = 48
+ 
+# prints 12
+print ("The gcd of 60 and 48 is : ",end="")
+print (computeGCD(60, 48))
+
