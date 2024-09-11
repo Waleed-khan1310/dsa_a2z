@@ -1,21 +1,31 @@
-Definition of Recursion
+1.Definition of Recursion:-
 When a function calls itself again and again, until a specific
 condition met.
 => If there is no condition the funtion will execute infinite time
 
-Stack overflow
+2.Stack overflow:-
 When there is no base condition given for a particular recursive 
 function, it gets called indefinitely which results in a Stack 
 Overflow i.e, exceeding the memory limit of the recursion stack and 
 hence the program terminates giving a Segmentation Fault error.
 
-#Base condition
+3.Base condition:-
 It is the condition that is written in a recursive function in order 
 for it to get completed and not to run infinitely. After encountering 
 the base condition, the function terminates and returns back to its 
 parent function simultaneously.
 
-Recursive Tree
+4.Recursive Tree:-
 A recursive tree is basically a representative form of recursion which 
 depicts how functions are called and returned as a series of events 
 happening consecutively
+
+
+5.Recursive way of calculating the sum of first N Natural Numbers:-
+
+i.Parameterized Way.
+ii.Functional Way.
+
+i.Parameterized way:-
+In this approach, instead of using a global variable for calculating the sum, we pass the sum in the 
+parameters of the function each time we add an integer to it during the function call.
