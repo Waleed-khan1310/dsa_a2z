@@ -38,10 +38,8 @@ for i in range(len(c)):
         
         
         
-a=input('Enter first number: ')
-b=input('Enter second number: ')
-a=int()
-b=int()
+a=int(input('Enter first number: '))
+b=int(input('Enter second number: '))
 sum=a*b
 print(f'The product of {a} and {b} is: ', sum)
 
