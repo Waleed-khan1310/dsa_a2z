@@ -26,11 +26,43 @@ b = 48
  
 # prints 12
 print ("The gcd of 60 and 48 is : ",end="")
-print (computeGCD(60, 48))'''
+print (computeGCD(60, 48))
 
-'''def sumfun(n,sum):
+def sumfun(n,sum):
     if n<1:
         print(sum)
         return
     sumfun(n-1,sum+n)
 sumfun(3,1)
+
+import array as arr
+a=arr.array('i',[1,3,4,5,6])
+print(a)
+for i in range(1,7):
+    print(i)
+    
+    
+    
+a=[1,2,3,4,5,6]
+for i in range(0,7):
+    print('\r','\n',i)
+    
+    
+
+# creating a list containing elements
+# belonging to different data types
+sample_list = [1, "Yash", ['a', 'e']]
+print(type(sample_list))
+print(sample_list)
+print('the third element',sample_list[1])
+
+def revarr(a,start,end):
+    if start>=end:
+        return
+    a[start],a[end]=a[end],a[start]
+    revarr(a,start+1,end-1)
+
+a=[8,2,3,4,5,'waleed']
+print(a)
+revarr(a,0,5)
+print(a)

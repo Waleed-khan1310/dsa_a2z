@@ -1,6 +1,9 @@
-# An array is a collection of items stores at contiguous memory location.
-# It make it easier to calculate the position of each elementby simply adding an offset to base value
-# It store only same types of elements in it.
+"""
+An array is a collection of items stores at contiguous memory location.
+It make it easier to calculate the position of each elementby simply 
+adding an offset to base value
+It store only same types of elements in it.
+"""
 
 
 import array as arr
