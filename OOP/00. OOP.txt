@@ -1,0 +1,3 @@
+OOP help us in:-
+=> Define our own datatype.
+=> Generality to specificity.

@@ -1,4 +1,4 @@
-'''def sum_of_divisors_upto_n(N):
+def sum_of_divisors_upto_n(N):
     # Step 1: Create an array to store sum of divisors for each number
     sum_divisors = [0] * (N + 1)
 
@@ -108,7 +108,7 @@ section=student()
 city=student()
 school=student()
 pass
-print('\n',type(rollNo),type(human),type(city), end='')'''
+print('\n',type(rollNo),type(human),type(city), end='')
 
 
 
