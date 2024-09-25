@@ -1,23 +1,11 @@
-#Creating functin in python
-'we can create function in python my "def function_name()"'
 
-def fun():
-    print("Here we create our own function, HURRAH!")
-fun()
 
 'and we create a function. For printing it we have to call it again like "fun()"'
 
 
 
 
-# now we talk about the parameters 
-# A parameter is the variable defined within the parentheses during function definition
-
-def egsum(x,y):
-    print(x+y)
-egsum(7,8)
-
-""" Here x and y is parameters """    
+   
 
 
 
